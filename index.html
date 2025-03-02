@@ -81,32 +81,38 @@
         //     ext: 'png'
         // });
         // Stadia_AlidadeSmoothDark.addTo(map);
-        L.tileLayer.provider('Thunderforest.Landscape', {apikey: 'eb1217407593416a89680e4bf9e7825b'}).addTo(map);
+        var Thunderforest_MobileAtlas = L.tileLayer('https://{s}.tile.thunderforest.com/mobile-atlas/{z}/{x}/{y}.png?apikey={apikey}', {
+            attribution: '&copy; <a href="http://www.thunderforest.com/">Thunderforest</a>, &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+            apikey: 'eb1217407593416a89680e4bf9e7825b',
+            maxZoom: 22
+        });
+        Thunderforest_MobileAtlas.addTo(map);
+        // L.tileLayer.provider('Thunderforest.Landscape', {apikey: 'eb1217407593416a89680e4bf9e7825b'}).addTo(map);
 
         // Load a GeoJSON world map
-        fetch("https://raw.githubusercontent.com/johan/world.geo.json/master/countries.geo.json")
-        .then(response => response.json())
-        .then(worldGeoJson => {
-            // Define restricted countries from JSON
-            const restrictedCountries = {
-                "LY": "red",
-                "YE": "red",
-                "SD": "red"
-            };
+        // fetch("https://raw.githubusercontent.com/johan/world.geo.json/master/countries.geo.json")
+        // .then(response => response.json())
+        // .then(worldGeoJson => {
+        //     // Define restricted countries from JSON
+        //     const restrictedCountries = {
+        //         "LY": "red",
+        //         "YE": "red",
+        //         "SD": "red"
+        //     };
 
-            // Add country boundaries
-            L.geoJSON(worldGeoJson, {
-            style: function (feature) {
-                let countryCode = feature.properties.iso_a2;
-                return {
-                color: "black",
-                fillColor: restrictedCountries[countryCode] || "transparent",
-                fillOpacity: restrictedCountries[countryCode] ? 0.5 : 0,
-                weight: 1
-                };
-            }
-            }).addTo(map);
-        });
+        //     // Add country boundaries
+        //     L.geoJSON(worldGeoJson, {
+        //     style: function (feature) {
+        //         let countryCode = feature.properties.iso_a2;
+        //         return {
+        //         color: "black",
+        //         fillColor: restrictedCountries[countryCode] || "transparent",
+        //         fillOpacity: restrictedCountries[countryCode] ? 0.5 : 0,
+        //         weight: 1
+        //         };
+        //     }
+        //     }).addTo(map);
+        // });
 
 
         async function loadAirports() {
