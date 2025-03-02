@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airport Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+    <style>
+        
+        .popup-A { background-color: green; color: white; padding: 5px; }
+        .popup-B { background-color: yellow; color: black; padding: 5px; }
+        .popup-Bplus { background-color: rgb(98, 0, 101); color: white; padding: 5px; }
+
+        body {
+        padding: 0;
+        margin: 0;
+    }
+    html, body, #map {
+        height: 100%;
+        width: 100%;
+    }
+    /*Legend specific*/
+    .legend {
+    padding: 6px 8px;
+    font: 14px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255, 255, 255, 0.8);
+    /*box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);*/
+    /*border-radius: 5px;*/
+    line-height: 24px;
+    color: #555;
+    }
+    .legend h4 {
+    text-align: center;
+    font-size: 16px;
+    margin: 2px 12px 8px;
+    color: #777;
+    }
+
+    .legend span {
+    position: relative;
+    bottom: 3px;
+    }
+
+    .legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin: 0 8px 0 0;
+    opacity: 0.7;
+    }
+
+    .legend i.icon {
+    background-size: 18px;
+    /* background-color: rgba(161, 161, 161, 0.151); */
+    }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src='leaflet-arc.min.js'></script>
+    <script>
+        const map = L.map('map').setView([0, 20], 3);
+        // L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+        var Stadia_StamenTonerLite = L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_toner_lite/{z}/{x}/{y}{r}.{ext}', {
+            minZoom: 0,
+            maxZoom: 20,
+            attribution: '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://www.stamen.com/" target="_blank">Stamen Design</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+            ext: 'png'
+        });
+        var Stadia_AlidadeSmoothDark = L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.{ext}', {
+            minZoom: 0,
+            maxZoom: 20,
+            attribution: '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+            ext: 'png'
+        });
+        Stadia_AlidadeSmoothDark.addTo(map);
+
+        // Load a GeoJSON world map
+        fetch("https://raw.githubusercontent.com/johan/world.geo.json/master/countries.geo.json")
+        .then(response => response.json())
+        .then(worldGeoJson => {
+            // Define restricted countries from JSON
+            const restrictedCountries = {
+                "LY": "red",
+                "YE": "red",
+                "SD": "red"
+            };
+
+            // Add country boundaries
+            L.geoJSON(worldGeoJson, {
+            style: function (feature) {
+                let countryCode = feature.properties.iso_a2;
+                return {
+                color: "black",
+                fillColor: restrictedCountries[countryCode] || "transparent",
+                fillOpacity: restrictedCountries[countryCode] ? 0.5 : 0,
+                weight: 1
+                };
+            }
+            }).addTo(map);
+        });
+
+
+        async function loadAirports() {
+            const response = await fetch('airports_v2.json');
+            const airports = await response.json();
+
+            const responseRoutes = await fetch('routes.json');
+            const routes = await responseRoutes.json();
+
+            routes.forEach(route => {
+                const latlngs = route.waypoints.map(waypoint => [waypoint.lat, waypoint.lon]);
+                L.polyline(latlngs, { color: 'blue', weight: 3 }).addTo(map);
+            })
+
+            // Define a group for better popup placement
+            const markers = L.featureGroup();
+
+            var greenIcon = new L.Icon({
+                iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png',
+                shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+                iconSize: [25, 41],
+                iconAnchor: [12, 41],
+                popupAnchor: [1, -34],
+                shadowSize: [41, 41]
+            });
+            var orangeIcon = new L.Icon({
+                iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-orange.png',
+                shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+                iconSize: [25, 41],
+                iconAnchor: [12, 41],
+                popupAnchor: [1, -34],
+                shadowSize: [41, 41]
+            });
+            var violetIcon = new L.Icon({
+                iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-violet.png',
+                shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+                iconSize: [25, 41],
+                iconAnchor: [12, 41],
+                popupAnchor: [1, -34],
+                shadowSize: [41, 41]
+            });
+            var redIcon = new L.Icon({
+                iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
+                shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+                iconSize: [25, 41],
+                iconAnchor: [12, 41],
+                popupAnchor: [1, -34],
+                shadowSize: [41, 41]
+            });
+            var blackIcon = new L.Icon({
+                iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
+                shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+                iconSize: [25, 41],
+                iconAnchor: [12, 41],
+                popupAnchor: [1, -34],
+                shadowSize: [41, 41]
+            });
+            var blackIcon = new L.Icon({
+                iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-black.png',
+                shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+                iconSize: [25, 41],
+                iconAnchor: [12, 41],
+                popupAnchor: [1, -34],
+                shadowSize: [41, 41]
+            });
+
+            airports.forEach(airport => {
+                const { name, icao, lat, lon, category } = airport;
+
+                const popupContent = `
+                    <div class="popup-${category.replace('+', 'plus')}">
+                        <b>${name} (${icao})</b><br>
+                        <b>Category:</b> ${category}<br>
+                    </div>
+                `;
+
+                // Add marker with non-overlapping popup
+                let colorIcon;
+                if (category === "A") {
+                    colorIcon = greenIcon;
+                } else if (category === "B") {
+                    colorIcon = orangeIcon;
+                } else if (category === "B+") {
+                    colorIcon = violetIcon;
+                } else if (category === "C") {
+                    colorIcon = redIcon;
+                } else if (category === "NA") {
+                    colorIcon = blackIcon;
+                }
+
+                const marker = L.marker([lat, lon], {icon: colorIcon});
+                // marker._icon.style.filter = "hue-rotate(120deg)"
+                marker.bindPopup(popupContent, { autoClose: false, closeOnClick: false });
+
+                markers.addLayer(marker);
+            });
+
+            // Add all markers to the map with automatic adjustment
+            map.addLayer(markers);
+            map.fitBounds(markers.getBounds(), { padding: [50, 50] }); // Adjust to avoid overlap
+        }
+
+        loadAirports();
+
+        /*Legend specific*/
+        var legend = L.control({ position: "bottomleft" });
+
+        legend.onAdd = function(map) {
+        var div = L.DomUtil.create("div", "legend");
+        // div.innerHTML += "<h4>Legend</h4>";
+        // div.innerHTML += '<i style="background: #477AC2"></i><span>Water</span><br>';
+        div.innerHTML += '<i class="icon" style="background-image: url(https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-green.png);background-repeat: no-repeat; background-size: 10px; background-position: center;"></i><span>A</span><br>';
+        div.innerHTML += '<i class="icon" style="background-image: url(https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-orange.png);background-repeat: no-repeat; background-size: 10px; background-position: center;"></i><span>B</span><br>';
+        div.innerHTML += '<i class="icon" style="background-image: url(https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-violet.png);background-repeat: no-repeat; background-size: 10px; background-position: center;"></i><span>B+</span><br>';
+        div.innerHTML += '<i class="icon" style="background-image: url(https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png);background-repeat: no-repeat; background-size: 10px; background-position: center;"></i><span>C</span><br>';
+        div.innerHTML += '<i class="icon" style="background-image: url(https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-black.png);background-repeat: no-repeat; background-size: 10px; background-position: center;"></i><span>N/A</span><br>';
+        
+
+        return div;
+        };
+
+        legend.addTo(map);
+
+    </script>
+</body>
+</html>

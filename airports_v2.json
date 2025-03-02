@@ -1,0 +1,2074 @@
+[
+    {
+      "icao": "BGSF",
+      "category": "B+",
+      "name": "Kangerlussuaq Airport",
+      "lat": "67.010446",
+      "lon": "-50.715294"
+    },
+    {
+      "icao": "BIKF",
+      "category": "A",
+      "name": "Keflavik International Airport",
+      "lat": "63.985001",
+      "lon": "-22.6056"
+    },
+    {
+      "icao": "CYEG",
+      "category": "A",
+      "name": "Edmonton International Airport",
+      "lat": "53.3097",
+      "lon": "-113.580002"
+    },
+    {
+      "icao": "CYFB",
+      "category": "B",
+      "name": "Iqaluit Airport",
+      "lat": "63.756402",
+      "lon": "-68.555801"
+    },
+    {
+      "icao": "CYHZ",
+      "category": "B",
+      "name": "Halifax / Stanfield International Airport",
+      "lat": "44.8807983398",
+      "lon": "-63.5085983276"
+    },
+    {
+      "icao": "CYJT",
+      "category": "B",
+      "name": "Dymond Airport",
+      "lat": "48.544201",
+      "lon": "-58.549999"
+    },
+    {
+      "icao": "CYMX",
+      "category": "A",
+      "name": "Montreal International (Mirabel) Airport",
+      "lat": "45.679501",
+      "lon": "-74.038696"
+    },
+    {
+      "icao": "CYOW",
+      "category": "A",
+      "name": "Ottawa Macdonald-Cartier International Airport",
+      "lat": "45.322498",
+      "lon": "-75.669197"
+    },
+    {
+      "icao": "CYQM",
+      "category": "A",
+      "name": "Greater Moncton Roméo LeBlanc International Airport",
+      "lat": "46.112202",
+      "lon": "-64.678596"
+    },
+    {
+      "icao": "CYQX",
+      "category": "B",
+      "name": "Gander International Airport / CFB Gander",
+      "lat": "48.936258",
+      "lon": "-54.567719"
+    },
+    {
+      "icao": "CYQY",
+      "category": "A",
+      "name": "Sydney / J.A. Douglas McCurdy Airport",
+      "lat": "46.1614",
+      "lon": "-60.047798"
+    },
+    {
+      "icao": "CYUL",
+      "category": "A",
+      "name": "Montreal / Pierre Elliott Trudeau International Airport",
+      "lat": "45.467837",
+      "lon": "-73.742294"
+    },
+    {
+      "icao": "CYVR",
+      "category": "A",
+      "name": "Vancouver International Airport",
+      "lat": "49.193901062",
+      "lon": "-123.183998108"
+    },
+    {
+      "icao": "CYWG",
+      "category": "A",
+      "name": "Winnipeg / James Armstrong Richardson International Airport",
+      "lat": "49.909999847399995",
+      "lon": "-97.2398986816"
+    },
+    {
+      "icao": "CYXS",
+      "category": "A",
+      "name": "Prince George Airport",
+      "lat": "53.884311",
+      "lon": "-122.666554"
+    },
+    {
+      "icao": "CYYC",
+      "category": "A",
+      "name": "Calgary International Airport",
+      "lat": "51.118822",
+      "lon": "-114.009933"
+    },
+    {
+      "icao": "CYYR",
+      "category": "B",
+      "name": "Goose Bay Airport",
+      "lat": "53.3191986084",
+      "lon": "-60.4258003235"
+    },
+    {
+      "icao": "CYYT",
+      "category": "A",
+      "name": "St. John's International Airport",
+      "lat": "47.618599",
+      "lon": "-52.7519"
+    },
+    {
+      "icao": "CYYZ",
+      "category": "A",
+      "name": "Toronto Lester B. Pearson International Airport",
+      "lat": "43.6772",
+      "lon": "-79.6306"
+    },
+    {
+      "icao": "CYZF",
+      "category": "A",
+      "name": "Yellowknife International Airport",
+      "lat": "62.462799",
+      "lon": "-114.440002"
+    },
+    {
+      "icao": "DAAG",
+      "category": "A",
+      "name": "Houari Boumediene Airport",
+      "lat": "36.693886",
+      "lon": "3.214531"
+    },
+    {
+      "icao": "DAAT",
+      "category": "B",
+      "name": "Aguenar – Hadj Bey Akhamok Airport",
+      "lat": "22.811501",
+      "lon": "5.45108"
+    },
+    {
+      "icao": "DAUG",
+      "category": "B",
+      "name": "Noumérat - Moufdi Zakaria Airport",
+      "lat": "32.384102",
+      "lon": "3.79411"
+    },
+    {
+      "icao": "DFOO",
+      "category": "A",
+      "name": "Bobo Dioulasso Airport",
+      "lat": "11.160099983215332",
+      "lon": "-4.33096981048584"
+    },
+    {
+      "icao": "DIAP",
+      "category": "A",
+      "name": "Félix-Houphouët-Boigny International Airport",
+      "lat": "5.26139",
+      "lon": "-3.92629"
+    },
+    {
+      "icao": "EBBR",
+      "category": "A",
+      "name": "Brussels Airport",
+      "lat": "50.901402",
+      "lon": "4.48444"
+    },
+    {
+      "icao": "EBLG",
+      "category": "A",
+      "name": "Liège Airport",
+      "lat": "50.638574",
+      "lon": "5.443897"
+    },
+    {
+      "icao": "EDDB",
+      "category": "A",
+      "name": "Berlin Brandenburg Airport",
+      "lat": "52.362247",
+      "lon": "13.500672"
+    },
+    {
+      "icao": "EDDF",
+      "category": "A",
+      "name": "Frankfurt Airport",
+      "lat": "50.030241",
+      "lon": "8.561096"
+    },
+    {
+      "icao": "EDDM",
+      "category": "A",
+      "name": "Munich Airport",
+      "lat": "48.353802",
+      "lon": "11.7861"
+    },
+    {
+      "icao": "EDDP",
+      "category": "A",
+      "name": "Leipzig/Halle Airport",
+      "lat": "51.420657",
+      "lon": "12.232705"
+    },
+    {
+      "icao": "EDDS",
+      "category": "A",
+      "name": "Stuttgart Airport",
+      "lat": "48.689899",
+      "lon": "9.22196"
+    },
+    {
+      "icao": "EGCC",
+      "category": "A",
+      "name": "Manchester Airport",
+      "lat": "53.349375",
+      "lon": "-2.279521"
+    },
+    {
+      "icao": "EGKK",
+      "category": "A",
+      "name": "London Gatwick Airport",
+      "lat": "51.148771",
+      "lon": "-0.192089"
+    },
+    {
+      "icao": "EGLL",
+      "category": "A",
+      "name": "London Heathrow Airport",
+      "lat": "51.4706",
+      "lon": "-0.461941"
+    },
+    {
+      "icao": "EGPF",
+      "category": "A",
+      "name": "Glasgow International Airport",
+      "lat": "55.871899",
+      "lon": "-4.43306"
+    },
+    {
+      "icao": "EGPH",
+      "category": "A",
+      "name": "Edinburgh Airport",
+      "lat": "55.950145",
+      "lon": "-3.372288"
+    },
+    {
+      "icao": "EGSS",
+      "category": "A",
+      "name": "London Stansted Airport",
+      "lat": "51.884998",
+      "lon": "0.235"
+    },
+    {
+      "icao": "EHAM",
+      "category": "A",
+      "name": "Amsterdam Airport Schiphol",
+      "lat": "52.308601",
+      "lon": "4.76389"
+    },
+    {
+      "icao": "EIDW",
+      "category": "A",
+      "name": "Dublin Airport",
+      "lat": "53.428713",
+      "lon": "-6.262121"
+    },
+    {
+      "icao": "EINN",
+      "category": "A",
+      "name": "Shannon Airport",
+      "lat": "52.702",
+      "lon": "-8.92482"
+    },
+    {
+      "icao": "FEFF",
+      "category": "A",
+      "name": "Bangui M'Poko International Airport",
+      "lat": "4.39847993850708",
+      "lon": "18.518800735473633"
+    },
+    {
+      "icao": "FIMP",
+      "category": "B",
+      "name": "Sir Seewoosagur Ramgoolam International Airport",
+      "lat": "-20.430201",
+      "lon": "57.683601"
+    },
+    {
+      "icao": "FMEE",
+      "category": "B",
+      "name": "Roland Garros Airport",
+      "lat": "-20.890087",
+      "lon": "55.518894"
+    },
+    {
+      "icao": "FMMI",
+      "category": "B",
+      "name": "Ivato Airport",
+      "lat": "-18.7969",
+      "lon": "47.478802"
+    },
+    {
+      "icao": "FSIA",
+      "category": "B",
+      "name": "Seychelles International Airport",
+      "lat": "-4.67434",
+      "lon": "55.521801"
+    },
+    {
+      "icao": "FTTJ",
+      "category": "B",
+      "name": "N'Djamena International Airport",
+      "lat": "12.1337",
+      "lon": "15.034"
+    },
+    {
+      "icao": "FWKI",
+      "category": "A",
+      "name": "Lilongwe International Airport",
+      "lat": "-13.7894001007",
+      "lon": "33.78099823"
+    },
+    {
+      "icao": "GBYD",
+      "category": "A",
+      "name": "Banjul International Airport",
+      "lat": "13.338",
+      "lon": "-16.652201"
+    },
+    {
+      "icao": "GCFV",
+      "category": "A",
+      "name": "Fuerteventura Airport",
+      "lat": "28.4527",
+      "lon": "-13.8638"
+    },
+    {
+      "icao": "GCLP",
+      "category": "A",
+      "name": "Gran Canaria Airport",
+      "lat": "27.9319",
+      "lon": "-15.3866"
+    },
+    {
+      "icao": "GCTS",
+      "category": "A",
+      "name": "Tenerife Sur Airport",
+      "lat": "28.0445",
+      "lon": "-16.5725"
+    },
+    {
+      "icao": "GMAD",
+      "category": "A",
+      "name": "Al Massira Airport",
+      "lat": "30.322478",
+      "lon": "-9.412003"
+    },
+    {
+      "icao": "GMMN",
+      "category": "A",
+      "name": "Mohammed V International Airport",
+      "lat": "33.3675",
+      "lon": "-7.58997"
+    },
+    {
+      "icao": "GMMX",
+      "category": "A",
+      "name": "Menara Airport",
+      "lat": "31.606899",
+      "lon": "-8.0363"
+    },
+    {
+      "icao": "GOBD",
+      "category": "A",
+      "name": "Blaise Diagne International Airport",
+      "lat": "14.670878",
+      "lon": "-17.072829"
+    },
+    {
+      "icao": "GQNO",
+      "category": "A",
+      "name": "Nouakchott–Oumtounsy International Airport",
+      "lat": "18.31",
+      "lon": "-15.969722"
+    },
+    {
+      "icao": "GVAC",
+      "category": "A",
+      "name": "Amílcar Cabral International Airport",
+      "lat": "16.7414",
+      "lon": "-22.9494"
+    },
+    {
+      "icao": "HAAB",
+      "category": "B+",
+      "name": "Addis Ababa Bole International Airport",
+      "lat": "8.97789",
+      "lon": "38.799301"
+    },
+    {
+      "icao": "HBBA",
+      "category": "B+",
+      "name": "Bujumbura Melchior Ndadaye International Airport",
+      "lat": "-3.32402",
+      "lon": "29.318501"
+    },
+    {
+      "icao": "HDAM",
+      "category": "B",
+      "name": "Djibouti-Ambouli Airport",
+      "lat": "11.5473",
+      "lon": "43.1595"
+    },
+    {
+      "icao": "HECA",
+      "category": "B",
+      "name": "Cairo International Airport",
+      "lat": "30.111534",
+      "lon": "31.396694"
+    },
+    {
+      "icao": "HELX",
+      "category": "B",
+      "name": "Luxor International Airport",
+      "lat": "25.671037",
+      "lon": "32.706451"
+    },
+    {
+      "icao": "HESH",
+      "category": "A",
+      "name": "Sharm El Sheikh International Airport",
+      "lat": "27.977272",
+      "lon": "34.394717"
+    },
+    {
+      "icao": "HESN",
+      "category": "B",
+      "name": "Aswan International Airport",
+      "lat": "23.968137",
+      "lon": "32.824445"
+    },
+    {
+      "icao": "HKEL",
+      "category": "B",
+      "name": "Eldoret International Airport",
+      "lat": "0.4044579863548279",
+      "lon": "35.23889923095703"
+    },
+    {
+      "icao": "HKJK",
+      "category": "B",
+      "name": "Jomo Kenyatta International Airport",
+      "lat": "-1.31923997402",
+      "lon": "36.9277992249"
+    },
+    {
+      "icao": "HKMO",
+      "category": "B",
+      "name": "Moi International Airport",
+      "lat": "-4.03483",
+      "lon": "39.5942"
+    },
+    {
+      "icao": "HRYR",
+      "category": "B",
+      "name": "Kigali International Airport",
+      "lat": "-1.96863",
+      "lon": "30.1395"
+    },
+    {
+      "icao": "HTDA",
+      "category": "B",
+      "name": "Julius Nyerere International Airport",
+      "lat": "-6.87811",
+      "lon": "39.202599"
+    },
+    {
+      "icao": "HUEN",
+      "category": "B",
+      "name": "Entebbe International Airport",
+      "lat": "0.042386",
+      "lon": "32.443501"
+    },
+    {
+      "icao": "KABQ",
+      "category": "A",
+      "name": "Albuquerque International Sunport",
+      "lat": "35.039976",
+      "lon": "-106.608925"
+    },
+    {
+      "icao": "KACY",
+      "category": "A",
+      "name": "Atlantic City International Airport",
+      "lat": "39.45759963989258",
+      "lon": "-74.57720184326172"
+    },
+    {
+      "icao": "KAEX",
+      "category": "A",
+      "name": "Alexandria International Airport",
+      "lat": "31.3274",
+      "lon": "-92.549797"
+    },
+    {
+      "icao": "KALB",
+      "category": "A",
+      "name": "Albany International Airport",
+      "lat": "42.74829864501953",
+      "lon": "-73.80169677734375"
+    },
+    {
+      "icao": "KAMA",
+      "category": "A",
+      "name": "Rick Husband Amarillo International Airport",
+      "lat": "35.219398",
+      "lon": "-101.706001"
+    },
+    {
+      "icao": "KATL",
+      "category": "A",
+      "name": "Hartsfield Jackson Atlanta International Airport",
+      "lat": "33.6367",
+      "lon": "-84.428101"
+    },
+    {
+      "icao": "KAUS",
+      "category": "A",
+      "name": "Austin Bergstrom International Airport",
+      "lat": "30.197535",
+      "lon": "-97.662015"
+    },
+    {
+      "icao": "KBDL",
+      "category": "A",
+      "name": "Bradley International Airport",
+      "lat": "41.93851",
+      "lon": "-72.688066"
+    },
+    {
+      "icao": "KBGR",
+      "category": "B",
+      "name": "Bangor International Airport",
+      "lat": "44.8074",
+      "lon": "-68.828102"
+    },
+    {
+      "icao": "KBHM",
+      "category": "A",
+      "name": "Birmingham-Shuttlesworth International Airport",
+      "lat": "33.562901",
+      "lon": "-86.753502"
+    },
+    {
+      "icao": "KBIL",
+      "category": "A",
+      "name": "Billings Logan International Airport",
+      "lat": "45.807701",
+      "lon": "-108.542999"
+    },
+    {
+      "icao": "KBNA",
+      "category": "A",
+      "name": "Nashville International Airport",
+      "lat": "36.1245",
+      "lon": "-86.6782"
+    },
+    {
+      "icao": "KBOI",
+      "category": "A",
+      "name": "Boise Air Terminal/Gowen Field",
+      "lat": "43.5644",
+      "lon": "-116.223"
+    },
+    {
+      "icao": "KBOS",
+      "category": "B",
+      "name": "Logan International Airport",
+      "lat": "42.36197",
+      "lon": "-71.0079"
+    },
+    {
+      "icao": "KBWI",
+      "category": "B",
+      "name": "Baltimore/Washington International Thurgood Marshall Airport",
+      "lat": "39.1754",
+      "lon": "-76.668297"
+    },
+    {
+      "icao": "KCAE",
+      "category": "A",
+      "name": "Columbia Metropolitan Airport",
+      "lat": "33.938801",
+      "lon": "-81.119499"
+    },
+    {
+      "icao": "KCDC",
+      "category": "A",
+      "name": "Cedar City Regional Airport",
+      "lat": "37.70100021362305",
+      "lon": "-113.0989990234375"
+    },
+    {
+      "icao": "KCHS",
+      "category": "A",
+      "name": "Charleston International Airport",
+      "lat": "32.898602",
+      "lon": "-80.040497"
+    },
+    {
+      "icao": "KCID",
+      "category": "A",
+      "name": "The Eastern Iowa Airport",
+      "lat": "41.884701",
+      "lon": "-91.7108"
+    },
+    {
+      "icao": "KCLE",
+      "category": "A",
+      "name": "Cleveland Hopkins International Airport",
+      "lat": "41.411701",
+      "lon": "-81.8498"
+    },
+    {
+      "icao": "KCLT",
+      "category": "A",
+      "name": "Charlotte Douglas International Airport",
+      "lat": "35.2140007019043",
+      "lon": "-80.94309997558594"
+    },
+    {
+      "icao": "KCMH",
+      "category": "A",
+      "name": "John Glenn Columbus International Airport",
+      "lat": "39.998001",
+      "lon": "-82.891899"
+    },
+    {
+      "icao": "KCOS",
+      "category": "B",
+      "name": "City of Colorado Springs Municipal Airport",
+      "lat": "38.805801",
+      "lon": "-104.700996"
+    },
+    {
+      "icao": "KCVG",
+      "category": "A",
+      "name": "Cincinnati Northern Kentucky International Airport",
+      "lat": "39.048801",
+      "lon": "-84.667801"
+    },
+    {
+      "icao": "KDEN",
+      "category": "B",
+      "name": "Denver International Airport",
+      "lat": "39.861698150635",
+      "lon": "-104.672996521"
+    },
+    {
+      "icao": "KDFW",
+      "category": "A",
+      "name": "Dallas Fort Worth International Airport",
+      "lat": "32.896801",
+      "lon": "-97.038002"
+    },
+    {
+      "icao": "KDSM",
+      "category": "A",
+      "name": "Des Moines International Airport",
+      "lat": "41.534",
+      "lon": "-93.663101"
+    },
+    {
+      "icao": "KDTW",
+      "category": "A",
+      "name": "Detroit Metropolitan Wayne County Airport",
+      "lat": "42.21377",
+      "lon": "-83.353786"
+    },
+    {
+      "icao": "KEWR",
+      "category": "B",
+      "name": "Newark Liberty International Airport",
+      "lat": "40.692501",
+      "lon": "-74.168701"
+    },
+    {
+      "icao": "KFAR",
+      "category": "A",
+      "name": "Hector International Airport",
+      "lat": "46.92070007324219",
+      "lon": "-96.81580352783203"
+    },
+    {
+      "icao": "KFAT",
+      "category": "A",
+      "name": "Fresno Yosemite International Airport",
+      "lat": "36.776199",
+      "lon": "-119.718002"
+    },
+    {
+      "icao": "KFLL",
+      "category": "A",
+      "name": "Fort Lauderdale Hollywood International Airport",
+      "lat": "26.072599",
+      "lon": "-80.152702"
+    },
+    {
+      "icao": "KGEG",
+      "category": "A",
+      "name": "Spokane International Airport",
+      "lat": "47.6199",
+      "lon": "-117.533997"
+    },
+    {
+      "icao": "KGJT",
+      "category": "A",
+      "name": "Grand Junction Regional Airport",
+      "lat": "39.126663",
+      "lon": "-108.529387"
+    },
+    {
+      "icao": "KGRR",
+      "category": "A",
+      "name": "Gerald R. Ford International Airport",
+      "lat": "42.88079834",
+      "lon": "-85.52279663"
+    },
+    {
+      "icao": "KGSO",
+      "category": "A",
+      "name": "Piedmont Triad International Airport",
+      "lat": "36.097801",
+      "lon": "-79.937302"
+    },
+    {
+      "icao": "KGTF",
+      "category": "A",
+      "name": "Great Falls International Airport",
+      "lat": "47.48199844",
+      "lon": "-111.3710022"
+    },
+    {
+      "icao": "KIAD",
+      "category": "B",
+      "name": "Washington Dulles International Airport",
+      "lat": "38.9445",
+      "lon": "-77.455803"
+    },
+    {
+      "icao": "KIAG",
+      "category": "A",
+      "name": "Niagara Falls International Airport",
+      "lat": "43.1073",
+      "lon": "-78.946198"
+    },
+    {
+      "icao": "KIAH",
+      "category": "A",
+      "name": "George Bush Intercontinental Houston Airport",
+      "lat": "29.984399795532227",
+      "lon": "-95.34140014648438"
+    },
+    {
+      "icao": "KICT",
+      "category": "A",
+      "name": "Wichita Eisenhower National Airport",
+      "lat": "37.649899",
+      "lon": "-97.433098"
+    },
+    {
+      "icao": "KIND",
+      "category": "A",
+      "name": "Indianapolis International Airport",
+      "lat": "39.7173",
+      "lon": "-86.294403"
+    },
+    {
+      "icao": "KJAX",
+      "category": "B+",
+      "name": "Jacksonville International Airport",
+      "lat": "30.492469",
+      "lon": "-81.687813"
+    },
+    {
+      "icao": "KJFK",
+      "category": "B",
+      "name": "John F Kennedy International Airport",
+      "lat": "40.639447",
+      "lon": "-73.779317"
+    },
+    {
+      "icao": "KLAS",
+      "category": "A",
+      "name": "Harry Reid International Airport",
+      "lat": "36.083361",
+      "lon": "-115.151817"
+    },
+    {
+      "icao": "KLAX",
+      "category": "B",
+      "name": "Los Angeles International Airport",
+      "lat": "33.942501",
+      "lon": "-118.407997"
+    },
+    {
+      "icao": "KLGB",
+      "category": "A",
+      "name": "Long Beach Airport (Daugherty Field)",
+      "lat": "33.816523",
+      "lon": "-118.149891"
+    },
+    {
+      "icao": "KLIT",
+      "category": "A",
+      "name": "Bill & Hillary Clinton National Airport/Adams Field",
+      "lat": "34.729582",
+      "lon": "-92.223728"
+    },
+    {
+      "icao": "KMCC",
+      "category": "A",
+      "name": "McClellan Airfield",
+      "lat": "38.667599",
+      "lon": "-121.401001"
+    },
+    {
+      "icao": "KMCI",
+      "category": "A",
+      "name": "Kansas City International Airport",
+      "lat": "39.2976",
+      "lon": "-94.713898"
+    },
+    {
+      "icao": "KMCO",
+      "category": "B",
+      "name": "Orlando International Airport",
+      "lat": "28.429399490356445",
+      "lon": "-81.30899810791016"
+    },
+    {
+      "icao": "KMEM",
+      "category": "A",
+      "name": "Memphis International Airport",
+      "lat": "35.0424",
+      "lon": "-89.9767"
+    },
+    {
+      "icao": "KMIA",
+      "category": "B",
+      "name": "Miami International Airport",
+      "lat": "25.79319953918457",
+      "lon": "-80.29060363769531"
+    },
+    {
+      "icao": "KMKE",
+      "category": "A",
+      "name": "General Mitchell International Airport",
+      "lat": "42.947201",
+      "lon": "-87.896599"
+    },
+    {
+      "icao": "KMLI",
+      "category": "A",
+      "name": "Quad City International Airport",
+      "lat": "41.448502",
+      "lon": "-90.5075"
+    },
+    {
+      "icao": "KMSP",
+      "category": "A",
+      "name": "Minneapolis–Saint Paul International Airport / Wold–Chamberlain Field",
+      "lat": "44.880081",
+      "lon": "-93.221741"
+    },
+    {
+      "icao": "KMSY",
+      "category": "A",
+      "name": "Louis Armstrong New Orleans International Airport",
+      "lat": "29.993401",
+      "lon": "-90.258003"
+    },
+    {
+      "icao": "KMWH",
+      "category": "A",
+      "name": "Grant County International Airport",
+      "lat": "47.20769882",
+      "lon": "-119.3199997"
+    },
+    {
+      "icao": "KOAK",
+      "category": "B",
+      "name": "San Francisco Bay Oakland International Airport",
+      "lat": "37.720085",
+      "lon": "-122.221184"
+    },
+    {
+      "icao": "KOKC",
+      "category": "A",
+      "name": "Will Rogers World Airport",
+      "lat": "35.393388",
+      "lon": "-97.598248"
+    },
+    {
+      "icao": "KOMA",
+      "category": "A",
+      "name": "Eppley Airfield",
+      "lat": "41.3032",
+      "lon": "-95.894096"
+    },
+    {
+      "icao": "KONT",
+      "category": "B",
+      "name": "Ontario International Airport",
+      "lat": "34.056",
+      "lon": "-117.600998"
+    },
+    {
+      "icao": "KORD",
+      "category": "A",
+      "name": "Chicago O'Hare International Airport",
+      "lat": "41.9786",
+      "lon": "-87.9048"
+    },
+    {
+      "icao": "KORF",
+      "category": "A",
+      "name": "Norfolk International Airport",
+      "lat": "36.895341",
+      "lon": "-76.201"
+    },
+    {
+      "icao": "KPBI",
+      "category": "A",
+      "name": "Palm Beach International Airport",
+      "lat": "26.683201",
+      "lon": "-80.095596"
+    },
+    {
+      "icao": "KPDX",
+      "category": "A",
+      "name": "Portland International Airport",
+      "lat": "45.588699",
+      "lon": "-122.598"
+    },
+    {
+      "icao": "KPHL",
+      "category": "B",
+      "name": "Philadelphia International Airport",
+      "lat": "39.871899",
+      "lon": "-75.241096"
+    },
+    {
+      "icao": "KPHX",
+      "category": "A",
+      "name": "Phoenix Sky Harbor International Airport",
+      "lat": "33.435302",
+      "lon": "-112.005905"
+    },
+    {
+      "icao": "KPIT",
+      "category": "A",
+      "name": "Pittsburgh International Airport",
+      "lat": "40.491501",
+      "lon": "-80.232903"
+    },
+    {
+      "icao": "KPVD",
+      "category": "A",
+      "name": "Theodore Francis Green State Airport",
+      "lat": "41.725038",
+      "lon": "-71.425668"
+    },
+    {
+      "icao": "KRDU",
+      "category": "A",
+      "name": "Raleigh Durham International Airport",
+      "lat": "35.877602",
+      "lon": "-78.787498"
+    },
+    {
+      "icao": "KRNO",
+      "category": "B",
+      "name": "Reno Tahoe International Airport",
+      "lat": "39.4991",
+      "lon": "-119.767998"
+    },
+    {
+      "icao": "KRST",
+      "category": "A",
+      "name": "Rochester International Airport",
+      "lat": "43.908298",
+      "lon": "-92.5"
+    },
+    {
+      "icao": "KSAN",
+      "category": "B",
+      "name": "San Diego International Airport",
+      "lat": "32.7336006165",
+      "lon": "-117.190002441"
+    },
+    {
+      "icao": "KSAT",
+      "category": "A",
+      "name": "San Antonio International Airport",
+      "lat": "29.533701",
+      "lon": "-98.469803"
+    },
+    {
+      "icao": "KSAW",
+      "category": "A",
+      "name": "Marquette/Sawyer International Airport",
+      "lat": "46.3536",
+      "lon": "-87.395401"
+    },
+    {
+      "icao": "KSDF",
+      "category": "A",
+      "name": "Louisville Muhammad Ali International Airport",
+      "lat": "38.1744",
+      "lon": "-85.736"
+    },
+    {
+      "icao": "KSEA",
+      "category": "A",
+      "name": "Seattle–Tacoma International Airport",
+      "lat": "47.447943",
+      "lon": "-122.310276"
+    },
+    {
+      "icao": "KSFO",
+      "category": "B",
+      "name": "San Francisco International Airport",
+      "lat": "37.619806",
+      "lon": "-122.374821"
+    },
+    {
+      "icao": "KSJC",
+      "category": "B",
+      "name": "Norman Y. Mineta San Jose International Airport",
+      "lat": "37.362452",
+      "lon": "-121.929188"
+    },
+    {
+      "icao": "KSLC",
+      "category": "B",
+      "name": "Salt Lake City International Airport",
+      "lat": "40.78886",
+      "lon": "-111.979866"
+    },
+    {
+      "icao": "KSMF",
+      "category": "A",
+      "name": "Sacramento International Airport",
+      "lat": "38.6954",
+      "lon": "-121.591003"
+    },
+    {
+      "icao": "KSTL",
+      "category": "A",
+      "name": "St. Louis Lambert International Airport",
+      "lat": "38.748697",
+      "lon": "-90.370003"
+    },
+    {
+      "icao": "KSWF",
+      "category": "A",
+      "name": "New York Stewart International Airport",
+      "lat": "41.504101",
+      "lon": "-74.104797"
+    },
+    {
+      "icao": "KSYR",
+      "category": "A",
+      "name": "Syracuse Hancock International Airport",
+      "lat": "43.11119842529297",
+      "lon": "-76.1063003540039"
+    },
+    {
+      "icao": "KTOL",
+      "category": "A",
+      "name": "Eugene F. Kranz Toledo Express Airport",
+      "lat": "41.5868",
+      "lon": "-83.8078"
+    },
+    {
+      "icao": "KTPA",
+      "category": "A",
+      "name": "Tampa International Airport",
+      "lat": "27.9755",
+      "lon": "-82.533203"
+    },
+    {
+      "icao": "KTUL",
+      "category": "A",
+      "name": "Tulsa International Airport",
+      "lat": "36.19839859008789",
+      "lon": "-95.88809967041016"
+    },
+    {
+      "icao": "KTUS",
+      "category": "A",
+      "name": "Tucson International Airport / Morris Air National Guard Base",
+      "lat": "32.115004",
+      "lon": "-110.938053"
+    },
+    {
+      "icao": "KVCV",
+      "category": "A",
+      "name": "Southern California Logistics Airport",
+      "lat": "34.597499847399995",
+      "lon": "-117.383003235"
+    },
+    {
+      "icao": "LBSF",
+      "category": "A",
+      "name": "Sofia Airport",
+      "lat": "42.696357",
+      "lon": "23.417671"
+    },
+    {
+      "icao": "LCLK",
+      "category": "A",
+      "name": "Larnaca International Airport",
+      "lat": "34.875099",
+      "lon": "33.624901"
+    },
+    {
+      "icao": "LDDU",
+      "category": "B",
+      "name": "Dubrovnik Ruđer Bošković Airport",
+      "lat": "42.562247",
+      "lon": "18.265543"
+    },
+    {
+      "icao": "LDZA",
+      "category": "A",
+      "name": "Zagreb Franjo Tuđman International Airport",
+      "lat": "45.742901",
+      "lon": "16.0688"
+    },
+    {
+      "icao": "LEBL",
+      "category": "A",
+      "name": "Josep Tarradellas Barcelona-El Prat Airport",
+      "lat": "41.2971",
+      "lon": "2.07846"
+    },
+    {
+      "icao": "LEMD",
+      "category": "A",
+      "name": "Adolfo Suárez Madrid–Barajas Airport",
+      "lat": "40.471926",
+      "lon": "-3.56264"
+    },
+    {
+      "icao": "LEST",
+      "category": "A",
+      "name": "Santiago-Rosalía de Castro Airport",
+      "lat": "42.896301",
+      "lon": "-8.41514"
+    },
+    {
+      "icao": "LEZL",
+      "category": "A",
+      "name": "Sevilla Airport",
+      "lat": "37.417999",
+      "lon": "-5.89311"
+    },
+    {
+      "icao": "LFBD",
+      "category": "A",
+      "name": "Bordeaux-Mérignac Airport",
+      "lat": "44.8283",
+      "lon": "-0.715556"
+    },
+    {
+      "icao": "LFBO",
+      "category": "A",
+      "name": "Toulouse-Blagnac Airport",
+      "lat": "43.629101",
+      "lon": "1.36382"
+    },
+    {
+      "icao": "LFBT",
+      "category": "B+",
+      "name": "Tarbes-Lourdes-Pyrénées Airport",
+      "lat": "43.178699",
+      "lon": "-0.006439"
+    },
+    {
+      "icao": "LFKB",
+      "category": "B",
+      "name": "Bastia-Poretta Airport",
+      "lat": "42.55270004272461",
+      "lon": "9.48373031616211"
+    },
+    {
+      "icao": "LFLL",
+      "category": "A",
+      "name": "Lyon Saint-Exupéry Airport",
+      "lat": "45.725996",
+      "lon": "5.090139"
+    },
+    {
+      "icao": "LFLX",
+      "category": "A",
+      "name": "Châteauroux-Déols Marcel Dassault Airport",
+      "lat": "46.860221",
+      "lon": "1.728326"
+    },
+    {
+      "icao": "LFML",
+      "category": "B",
+      "name": "Marseille Provence Airport",
+      "lat": "43.438088",
+      "lon": "5.2125"
+    },
+    {
+      "icao": "LFMN",
+      "category": "B",
+      "name": "Nice-Côte d'Azur Airport",
+      "lat": "43.658401",
+      "lon": "7.21587"
+    },
+    {
+      "icao": "LFMP",
+      "category": "A",
+      "name": "Perpignan-Rivesaltes (Llabanère) Airport",
+      "lat": "42.740398",
+      "lon": "2.87067"
+    },
+    {
+      "icao": "LFOK",
+      "category": "A",
+      "name": "Châlons-Vatry Airport",
+      "lat": "48.77333",
+      "lon": "4.20611"
+    },
+    {
+      "icao": "LFPG",
+      "category": "A",
+      "name": "Charles de Gaulle International Airport",
+      "lat": "49.012798",
+      "lon": "2.55"
+    },
+    {
+      "icao": "LFPO",
+      "category": "A",
+      "name": "Paris-Orly Airport",
+      "lat": "48.72333",
+      "lon": "2.37944"
+    },
+    {
+      "icao": "LFRB",
+      "category": "A",
+      "name": "Brest Bretagne Airport",
+      "lat": "48.447899",
+      "lon": "-4.41854"
+    },
+    {
+      "icao": "LFRS",
+      "category": "B",
+      "name": "Nantes Atlantique Airport",
+      "lat": "47.153198",
+      "lon": "-1.61073"
+    },
+    {
+      "icao": "LFSB",
+      "category": "B",
+      "name": "EuroAirport Basel-Mulhouse-Freiburg",
+      "lat": "47.60068",
+      "lon": "7.521117"
+    },
+    {
+      "icao": "LGAV",
+      "category": "A",
+      "name": "Athens Eleftherios Venizelos International Airport",
+      "lat": "37.936401",
+      "lon": "23.9445"
+    },
+    {
+      "icao": "LGTS",
+      "category": "B",
+      "name": "Thessaloniki Macedonia International Airport",
+      "lat": "40.51928",
+      "lon": "22.970009"
+    },
+    {
+      "icao": "LIBD",
+      "category": "A",
+      "name": "Bari Karol Wojtyła International Airport",
+      "lat": "41.138901",
+      "lon": "16.760599"
+    },
+    {
+      "icao": "LIBR",
+      "category": "A",
+      "name": "Brindisi Airport",
+      "lat": "40.6576",
+      "lon": "17.947001"
+    },
+    {
+      "icao": "LICJ",
+      "category": "A",
+      "name": "Falcone–Borsellino Airport",
+      "lat": "38.175999",
+      "lon": "13.091"
+    },
+    {
+      "icao": "LIMC",
+      "category": "B",
+      "name": "Milan Malpensa International Airport",
+      "lat": "45.6306",
+      "lon": "8.72811"
+    },
+    {
+      "icao": "LIME",
+      "category": "A",
+      "name": "Milan Bergamo Airport / Antonio Locatelli Air Base",
+      "lat": "45.670725",
+      "lon": "9.709223"
+    },
+    {
+      "icao": "LIMF",
+      "category": "A",
+      "name": "Turin Airport",
+      "lat": "45.200802",
+      "lon": "7.64963"
+    },
+    {
+      "icao": "LIPE",
+      "category": "A",
+      "name": "Bologna Guglielmo Marconi Airport",
+      "lat": "44.5354",
+      "lon": "11.2887"
+    },
+    {
+      "icao": "LIPQ",
+      "category": "A",
+      "name": "Trieste–Friuli Venezia Giulia Airport",
+      "lat": "45.827499",
+      "lon": "13.4722"
+    },
+    {
+      "icao": "LIPR",
+      "category": "B",
+      "name": "Federico Fellini International Airport",
+      "lat": "44.020302",
+      "lon": "12.6117"
+    },
+    {
+      "icao": "LIPX",
+      "category": "A",
+      "name": "Verona Villafranca Valerio Catullo Airport",
+      "lat": "45.394955",
+      "lon": "10.887303"
+    },
+    {
+      "icao": "LIPZ",
+      "category": "A",
+      "name": "Venice Marco Polo Airport",
+      "lat": "45.505299",
+      "lon": "12.3519"
+    },
+    {
+      "icao": "LIRF",
+      "category": "A",
+      "name": "Rome–Fiumicino Leonardo da Vinci International Airport",
+      "lat": "41.804532",
+      "lon": "12.251998"
+    },
+    {
+      "icao": "LMML",
+      "category": "A",
+      "name": "Malta International Airport",
+      "lat": "35.857498",
+      "lon": "14.4775"
+    },
+    {
+      "icao": "LOWW",
+      "category": "A",
+      "name": "Vienna International Airport",
+      "lat": "48.110298",
+      "lon": "16.5697"
+    },
+    {
+      "icao": "LPAZ",
+      "category": "B",
+      "name": "Santa Maria Airport",
+      "lat": "36.97140121459961",
+      "lon": "-25.17060089111328"
+    },
+    {
+      "icao": "LPLA",
+      "category": "B",
+      "name": "Lajes Airport",
+      "lat": "38.761799",
+      "lon": "-27.090799"
+    },
+    {
+      "icao": "LPPD",
+      "category": "B",
+      "name": "João Paulo II Airport",
+      "lat": "37.7411994934",
+      "lon": "-25.6979007721"
+    },
+    {
+      "icao": "LPPR",
+      "category": "A",
+      "name": "Francisco de Sá Carneiro Airport",
+      "lat": "41.2481002808",
+      "lon": "-8.68138980865"
+    },
+    {
+      "icao": "LPPT",
+      "category": "A",
+      "name": "Humberto Delgado Airport (Lisbon Portela Airport)",
+      "lat": "38.7813",
+      "lon": "-9.13592"
+    },
+    {
+      "icao": "LSGG",
+      "category": "B",
+      "name": "Geneva Cointrin International Airport",
+      "lat": "46.238098",
+      "lon": "6.10895"
+    },
+    {
+      "icao": "LSZH",
+      "category": "B",
+      "name": "Zürich Airport",
+      "lat": "47.458056",
+      "lon": "8.548056"
+    },
+    {
+      "icao": "LTAI",
+      "category": "A",
+      "name": "Antalya International Airport",
+      "lat": "36.898701",
+      "lon": "30.800501"
+    },
+    {
+      "icao": "LTBJ",
+      "category": "A",
+      "name": "Adnan Menderes International Airport",
+      "lat": "38.2924",
+      "lon": "27.157"
+    },
+    {
+      "icao": "LTFM",
+      "category": "A",
+      "name": "İstanbul Airport",
+      "lat": "41.261297",
+      "lon": "28.741951"
+    },
+    {
+      "icao": "LYBE",
+      "category": "A",
+      "name": "Belgrade Nikola Tesla Airport",
+      "lat": "44.818401",
+      "lon": "20.309099"
+    },
+    {
+      "icao": "MBPV",
+      "category": "A",
+      "name": "Providenciales International Airport",
+      "lat": "21.773697",
+      "lon": "-72.268321"
+    },
+    {
+      "icao": "MDLR",
+      "category": "A",
+      "name": "Casa De Campo International Airport",
+      "lat": "18.452222",
+      "lon": "-68.911111"
+    },
+    {
+      "icao": "MDPC",
+      "category": "A",
+      "name": "Punta Cana International Airport",
+      "lat": "18.5674",
+      "lon": "-68.363403"
+    },
+    {
+      "icao": "MDPP",
+      "category": "A",
+      "name": "Gregorio Luperon International Airport",
+      "lat": "19.7579",
+      "lon": "-70.57"
+    },
+    {
+      "icao": "MDSD",
+      "category": "A",
+      "name": "Las Américas International Airport",
+      "lat": "18.42970085144",
+      "lon": "-69.668899536133"
+    },
+    {
+      "icao": "MKJP",
+      "category": "A",
+      "name": "Norman Manley International Airport",
+      "lat": "17.935699462890625",
+      "lon": "-76.7874984741211"
+    },
+    {
+      "icao": "MKJS",
+      "category": "A",
+      "name": "Sangster International Airport",
+      "lat": "18.5037",
+      "lon": "-77.913399"
+    },
+    {
+      "icao": "MMAA",
+      "category": "A",
+      "name": "General Juan N. Álvarez International Airport",
+      "lat": "16.757126",
+      "lon": "-99.753113"
+    },
+    {
+      "icao": "MMGL",
+      "category": "A",
+      "name": "Guadalajara International Airport",
+      "lat": "20.523342",
+      "lon": "-103.310108"
+    },
+    {
+      "icao": "MMMD",
+      "category": "A",
+      "name": "Manuel Crescencio Rejón International Airport",
+      "lat": "20.930485",
+      "lon": "-89.645462"
+    },
+    {
+      "icao": "MMPR",
+      "category": "A",
+      "name": "Puerto Vallarta International Airport",
+      "lat": "20.679913",
+      "lon": "-105.254391"
+    },
+    {
+      "icao": "MMUN",
+      "category": "A",
+      "name": "Cancún International Airport",
+      "lat": "21.039444",
+      "lon": "-86.874304"
+    },
+    {
+      "icao": "MUCC",
+      "category": "A",
+      "name": "Jardines Del Rey Airport",
+      "lat": "22.461000442499998",
+      "lon": "-78.32839965820001"
+    },
+    {
+      "icao": "MUCM",
+      "category": "A",
+      "name": "Ignacio Agramonte International Airport",
+      "lat": "21.420299530029297",
+      "lon": "-77.84750366210938"
+    },
+    {
+      "icao": "MUCU",
+      "category": "A",
+      "name": "Antonio Maceo International Airport",
+      "lat": "19.96980094909668",
+      "lon": "-75.83540344238281"
+    },
+    {
+      "icao": "MUHA",
+      "category": "A",
+      "name": "José Martí International Airport",
+      "lat": "22.989200592041016",
+      "lon": "-82.40910339355469"
+    },
+    {
+      "icao": "MUHG",
+      "category": "A",
+      "name": "Frank Pais International Airport",
+      "lat": "20.785600662231445",
+      "lon": "-76.31510162353516"
+    },
+    {
+      "icao": "MUSC",
+      "category": "A",
+      "name": "Abel Santamaria Airport",
+      "lat": "22.492201",
+      "lon": "-79.943604"
+    },
+    {
+      "icao": "MUVR",
+      "category": "A",
+      "name": "Juan Gualberto Gomez International Airport",
+      "lat": "23.034401",
+      "lon": "-81.435303"
+    },
+    {
+      "icao": "MYGF",
+      "category": "A",
+      "name": "Grand Bahama International Airport",
+      "lat": "26.5587005615",
+      "lon": "-78.695602417"
+    },
+    {
+      "icao": "MYNN",
+      "category": "A",
+      "name": "Lynden Pindling International Airport",
+      "lat": "25.039",
+      "lon": "-77.466202"
+    },
+    {
+      "icao": "NCRG",
+      "category": "B",
+      "name": "Rarotonga International Airport",
+      "lat": "-21.2027",
+      "lon": "-159.806"
+    },
+    {
+      "icao": "NFFN",
+      "category": "A",
+      "name": "Nadi International Airport",
+      "lat": "-17.755399703979492",
+      "lon": "177.4429931640625"
+    },
+    {
+      "icao": "NSTU",
+      "category": "B",
+      "name": "Pago Pago International Airport",
+      "lat": "-14.331",
+      "lon": "-170.710007"
+    },
+    {
+      "icao": "NTAA",
+      "category": "B",
+      "name": "Faa'a International Airport",
+      "lat": "-17.553699",
+      "lon": "-149.606995"
+    },
+    {
+      "icao": "NWWW",
+      "category": "B",
+      "name": "La Tontouta International Airport",
+      "lat": "-22.014601",
+      "lon": "166.212997"
+    },
+    {
+      "icao": "OEDF",
+      "category": "A",
+      "name": "King Fahd International Airport",
+      "lat": "26.471201",
+      "lon": "49.797901"
+    },
+    {
+      "icao": "OEJN",
+      "category": "B+",
+      "name": "King Abdulaziz International Airport",
+      "lat": "21.6796",
+      "lon": "39.156502"
+    },
+    {
+      "icao": "OERK",
+      "category": "A",
+      "name": "King Khaled International Airport",
+      "lat": "24.9576",
+      "lon": "46.698799"
+    },
+    {
+      "icao": "OMDB",
+      "category": "A",
+      "name": "Dubai International Airport",
+      "lat": "25.2527999878",
+      "lon": "55.3643989563"
+    },
+    {
+      "icao": "OTBD",
+      "category": "A",
+      "name": "Doha International Airport",
+      "lat": "25.261101",
+      "lon": "51.565102"
+    },
+    {
+      "icao": "PHKO",
+      "category": "B",
+      "name": "Ellison Onizuka Kona International Airport at Keahole",
+      "lat": "19.738783",
+      "lon": "-156.045603"
+    },
+    {
+      "icao": "PHNL",
+      "category": "B",
+      "name": "Daniel K Inouye International Airport",
+      "lat": "21.32062",
+      "lon": "-157.924228"
+    },
+    {
+      "icao": "PHTO",
+      "category": "B",
+      "name": "Hilo International Airport",
+      "lat": "19.721399",
+      "lon": "-155.048004"
+    },
+    {
+      "icao": "SBBE",
+      "category": "A",
+      "name": "Val de Cans/Júlio Cezar Ribeiro International Airport",
+      "lat": "-1.379279",
+      "lon": "-48.476207"
+    },
+    {
+      "icao": "SBFZ",
+      "category": "A",
+      "name": "Pinto Martins International Airport",
+      "lat": "-3.775833",
+      "lon": "-38.532222"
+    },
+    {
+      "icao": "SBRF",
+      "category": "A",
+      "name": "Recife/Guararapes - Gilberto Freyre International Airport",
+      "lat": "-8.125984",
+      "lon": "-34.923316"
+    },
+    {
+      "icao": "SKBO",
+      "category": "C",
+      "name": "El Dorado International Airport",
+      "lat": "4.70159",
+      "lon": "-74.1469"
+    },
+    {
+      "icao": "SMJP",
+      "category": "A",
+      "name": "Johan Adolf Pengel International Airport",
+      "lat": "5.45283",
+      "lon": "-55.187801"
+    },
+    {
+      "icao": "SOCA",
+      "category": "A",
+      "name": "Cayenne - Félix Eboué Airport",
+      "lat": "4.819964",
+      "lon": "-52.361326"
+    },
+    {
+      "icao": "SVMG",
+      "category": "A",
+      "name": "Del Caribe Santiago Mariño International Airport",
+      "lat": "10.912603378295898",
+      "lon": "-63.96659851074219"
+    },
+    {
+      "icao": "SVMI",
+      "category": "A",
+      "name": "Simón Bolívar International Airport",
+      "lat": "10.601194",
+      "lon": "-66.991222"
+    },
+    {
+      "icao": "SYCJ",
+      "category": "A",
+      "name": "Cheddi Jagan International Airport",
+      "lat": "6.49855",
+      "lon": "-58.254101"
+    },
+    {
+      "icao": "TAPA",
+      "category": "A",
+      "name": "V C Bird International Airport",
+      "lat": "17.1367",
+      "lon": "-61.792702"
+    },
+    {
+      "icao": "TBPB",
+      "category": "A",
+      "name": "Grantley Adams International Airport",
+      "lat": "13.0746",
+      "lon": "-59.4925"
+    },
+    {
+      "icao": "TFFF",
+      "category": "B",
+      "name": "Martinique Aimé Césaire International Airport",
+      "lat": "14.591",
+      "lon": "-61.003201"
+    },
+    {
+      "icao": "TFFR",
+      "category": "B",
+      "name": "Guadeloupe - Maryse Condé International Airport",
+      "lat": "16.265301",
+      "lon": "-61.531799"
+    },
+    {
+      "icao": "TGPY",
+      "category": "A",
+      "name": "Maurice Bishop International Airport",
+      "lat": "12.0042",
+      "lon": "-61.786201"
+    },
+    {
+      "icao": "TJSJ",
+      "category": "A",
+      "name": "Luis Munoz Marin International Airport",
+      "lat": "18.4394",
+      "lon": "-66.001801"
+    },
+    {
+      "icao": "TLPL",
+      "category": "A",
+      "name": "Hewanorra International Airport",
+      "lat": "13.7332",
+      "lon": "-60.952599"
+    },
+    {
+      "icao": "TTPP",
+      "category": "A",
+      "name": "Piarco International Airport",
+      "lat": "10.5954",
+      "lon": "-61.3372"
+    },
+    {
+      "icao": "TXKF",
+      "category": "A",
+      "name": "L.F. Wade International Airport",
+      "lat": "32.363998",
+      "lon": "-64.678703"
+    },
+    {
+      "icao": "YBBN",
+      "category": "A",
+      "name": "Brisbane International Airport",
+      "lat": "-27.384199142456055",
+      "lon": "153.11700439453125"
+    },
+    {
+      "icao": "YPAD",
+      "category": "A",
+      "name": "Adelaide International Airport",
+      "lat": "-34.947512",
+      "lon": "138.533393"
+    },
+    {
+      "icao": "YPPH",
+      "category": "A",
+      "name": "Perth International Airport",
+      "lat": "-31.94029998779297",
+      "lon": "115.96700286865234"
+    },
+    {
+      "icao": "YSSY",
+      "category": "A",
+      "name": "Sydney Kingsford Smith International Airport",
+      "lat": "-33.946098",
+      "lon": "151.177002"
+    },
+    {
+      "icao": "GVSV",
+      "category": "NA",
+      "name": "São Pedro Airport",
+      "lat": "16.8332",
+      "lon": "-25.0553"
+    },
+    {
+      "icao": "EICK",
+      "category": "NA",
+      "name": "Cork Airport",
+      "lat": "51.841301",
+      "lon": "-8.49111"
+    },
+    {
+      "icao": "LFBP",
+      "category": "NA",
+      "name": "Pau Pyrénées Airport",
+      "lat": "43.380001",
+      "lon": "-0.418611"
+    },
+    {
+      "icao": "LFLS",
+      "category": "NA",
+      "name": "Grenoble Alpes Isère Airport",
+      "lat": "45.3629",
+      "lon": "5.32937"
+    },
+    {
+      "icao": "LFQQ",
+      "category": "NA",
+      "name": "Lille Airport",
+      "lat": "50.563332",
+      "lon": "3.086886"
+    },
+    {
+      "icao": "LIMJ",
+      "category": "NA",
+      "name": "Genoa Cristoforo Colombo Airport",
+      "lat": "44.412039",
+      "lon": "8.840732"
+    },
+    {
+      "icao": "LPMA",
+      "category": "NA",
+      "name": "Madeira International Airport Cristiano Ronaldo",
+      "lat": "32.697899",
+      "lon": "-16.7745"
+    },
+    {
+      "icao": "EGAA",
+      "category": "NA",
+      "name": "Belfast International Airport",
+      "lat": "54.6575012207",
+      "lon": "-6.2158298492399995"
+    },
+    {
+      "icao": "EGPO",
+      "category": "NA",
+      "name": "Stornoway Airport",
+      "lat": "58.215599",
+      "lon": "-6.33111"
+    },
+    {
+      "icao": "GCXO",
+      "category": "NA",
+      "name": "Tenerife Norte-Ciudad de La Laguna Airport",
+      "lat": "28.4827",
+      "lon": "-16.341499"
+    },
+    {
+      "icao": "HEBA",
+      "category": "NA",
+      "name": "Borj El Arab International Airport",
+      "lat": "30.93249",
+      "lon": "29.696437"
+    },
+    {
+      "icao": "HSSK",
+      "category": "NA",
+      "name": "Khartoum International Airport",
+      "lat": "15.5895",
+      "lon": "32.5532"
+    },
+    {
+      "icao": "KMSO",
+      "category": "NA",
+      "name": "Missoula International Airport",
+      "lat": "46.91630173",
+      "lon": "-114.0910034"
+    },
+    {
+      "icao": "LFBZ",
+      "category": "NA",
+      "name": "Biarritz-Anglet-Bayonne Airport",
+      "lat": "43.468333",
+      "lon": "-1.531111"
+    },
+    {
+      "icao": "LFKJ",
+      "category": "NA",
+      "name": "Ajaccio-Napoléon Bonaparte Airport",
+      "lat": "41.92359924316406",
+      "lon": "8.8029203414917"
+    },
+    {
+      "icao": "LFLC",
+      "category": "NA",
+      "name": "Clermont-Ferrand Auvergne Airport",
+      "lat": "45.786701",
+      "lon": "3.16917"
+    },
+    {
+      "icao": "LIMP",
+      "category": "NA",
+      "name": "Parma Airport",
+      "lat": "44.826351",
+      "lon": "10.29705"
+    },
+    {
+      "icao": "LGIR",
+      "category": "NA",
+      "name": "Heraklion International Nikos Kazantzakis Airport",
+      "lat": "35.339699",
+      "lon": "25.1803"
+    },
+    {
+      "icao": "LIPK",
+      "category": "NA",
+      "name": "Forlì Luigi Ridolfi Airport",
+      "lat": "44.194801",
+      "lon": "12.0701"
+    },
+    {
+      "icao": "LIRA",
+      "category": "NA",
+      "name": "Ciampino–G. B. Pastine International Airport",
+      "lat": "41.7994",
+      "lon": "12.5949"
+    },
+    {
+      "icao": "LIRP",
+      "category": "NA",
+      "name": "Pisa International Airport",
+      "lat": "43.683899",
+      "lon": "10.3927"
+    },
+    {
+      "icao": "KSGF",
+      "category": "NA",
+      "name": "Springfield Branson National Airport",
+      "lat": "37.245701",
+      "lon": "-93.388603"
+    },
+    {
+      "icao": "KSAV",
+      "category": "NA",
+      "name": "Savannah Hilton Head International Airport",
+      "lat": "32.127602",
+      "lon": "-81.202103"
+    },
+    {
+      "icao": "CYYG",
+      "category": "NA",
+      "name": "Charlottetown Airport",
+      "lat": "46.290000915527344",
+      "lon": "-63.12110137939453"
+    },
+    {
+      "icao": "FMCH",
+      "category": "NA",
+      "name": "Prince Said Ibrahim International Airport",
+      "lat": "-11.5337",
+      "lon": "43.2719"
+    },
+    {
+      "icao": "LFBI",
+      "category": "NA",
+      "name": "Poitiers-Biard Airport",
+      "lat": "46.5877",
+      "lon": "0.306666"
+    },
+    {
+      "icao": "LFMT",
+      "category": "NA",
+      "name": "Montpellier-Méditerranée Airport",
+      "lat": "43.576199",
+      "lon": "3.96301"
+    },
+    {
+      "icao": "LFST",
+      "category": "NA",
+      "name": "Strasbourg Airport",
+      "lat": "48.538299560546875",
+      "lon": "7.628230094909668"
+    },
+    {
+      "icao": "LIML",
+      "category": "NA",
+      "name": "Milano Linate Airport",
+      "lat": "45.445099",
+      "lon": "9.27674"
+    }
+  ]
