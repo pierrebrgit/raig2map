@@ -67,53 +67,13 @@
     <script src='leaflet-arc.min.js'></script>
     <script>
         const map = L.map('map').setView([0, 20], 3);
-        // L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
-        // var Stadia_StamenTonerLite = L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_toner_lite/{z}/{x}/{y}{r}.{ext}', {
-        //     minZoom: 0,
-        //     maxZoom: 20,
-        //     attribution: '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://www.stamen.com/" target="_blank">Stamen Design</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-        //     ext: 'png'
-        // });
-        // var Stadia_AlidadeSmoothDark = L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.{ext}', {
-        //     minZoom: 0,
-        //     maxZoom: 20,
-        //     attribution: '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-        //     ext: 'png'
-        // });
-        // Stadia_AlidadeSmoothDark.addTo(map);
+        
         var Thunderforest_MobileAtlas = L.tileLayer('https://{s}.tile.thunderforest.com/mobile-atlas/{z}/{x}/{y}.png?apikey={apikey}', {
             attribution: '&copy; <a href="http://www.thunderforest.com/">Thunderforest</a>, &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
             apikey: 'eb1217407593416a89680e4bf9e7825b',
             maxZoom: 22
         });
         Thunderforest_MobileAtlas.addTo(map);
-        // L.tileLayer.provider('Thunderforest.Landscape', {apikey: 'eb1217407593416a89680e4bf9e7825b'}).addTo(map);
-
-        // Load a GeoJSON world map
-        // fetch("https://raw.githubusercontent.com/johan/world.geo.json/master/countries.geo.json")
-        // .then(response => response.json())
-        // .then(worldGeoJson => {
-        //     // Define restricted countries from JSON
-        //     const restrictedCountries = {
-        //         "LY": "red",
-        //         "YE": "red",
-        //         "SD": "red"
-        //     };
-
-        //     // Add country boundaries
-        //     L.geoJSON(worldGeoJson, {
-        //     style: function (feature) {
-        //         let countryCode = feature.properties.iso_a2;
-        //         return {
-        //         color: "black",
-        //         fillColor: restrictedCountries[countryCode] || "transparent",
-        //         fillOpacity: restrictedCountries[countryCode] ? 0.5 : 0,
-        //         weight: 1
-        //         };
-        //     }
-        //     }).addTo(map);
-        // });
-
 
         async function loadAirports() {
             const response = await fetch('airports_v2.json');
@@ -222,8 +182,6 @@
 
         legend.onAdd = function(map) {
         var div = L.DomUtil.create("div", "legend");
-        // div.innerHTML += "<h4>Legend</h4>";
-        // div.innerHTML += '<i style="background: #477AC2"></i><span>Water</span><br>';
         div.innerHTML += '<i class="icon" style="background-image: url(https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-green.png);background-repeat: no-repeat; background-size: 10px; background-position: center;"></i><span>A</span><br>';
         div.innerHTML += '<i class="icon" style="background-image: url(https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-orange.png);background-repeat: no-repeat; background-size: 10px; background-position: center;"></i><span>B</span><br>';
         div.innerHTML += '<i class="icon" style="background-image: url(https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-violet.png);background-repeat: no-repeat; background-size: 10px; background-position: center;"></i><span>B+</span><br>';
